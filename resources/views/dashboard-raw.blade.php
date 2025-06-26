@@ -8,7 +8,7 @@
     <div class="flex justify-between items-center">
         <div>
             <h1 class="text-3xl font-bold text-gray-900">Dashboard (DB Raw Implementation)</h1>
-            <!-- PHP SESSION IMPLEMENTATION - Display user-specific welcome message -->
+            <!-- PHP SESSION IMPLEMENTATION... - Display user-specific welcome message -->
             <p class="text-gray-600">Welcome back, {{ session('user_name') }}! <span class="text-red-600 font-medium">[Using Raw SQL]</span></p>
         </div>
         <div class="flex space-x-3">
